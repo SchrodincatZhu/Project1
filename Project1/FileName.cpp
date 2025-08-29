@@ -124,10 +124,21 @@ int main()
 	//}
 
 
-for (int i = 0; i < 10; i += 1)       //先执行i=0，然后判断i<10，执行cout，再i+=1.再判断i<10，以此类推
+//for (int i = 0; i < 10; i += 1)       //先执行i=0，然后判断i<10，执行cout，再i+=1.再判断i<10，以此类推
+//{
+//	cout << i;
+//}
+
+
+int x = 1;
+while (x<100)
 {
-	cout << i;
+	cout << x << endl;
+	x += 1;
 }
+
+
+
 
 	system("pause");
 	return 0;
