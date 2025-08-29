@@ -100,29 +100,34 @@ int main()
 	}*/
 
 
-	int valaue = 1;
-	switch (valaue)
-	{
-	case 1:
-	{     //代码过多加大括号
-		cout << "1" << endl;
-		cout << "1" << endl;
-		cout << "1" << endl;
-		cout << "1" << endl;
-		cout << "1" << endl;
-		cout << "1" << endl;
-	}
-		break;
-	case 2:
-		cout << "2" << endl;
-		break;
-	case 3:
-		cout << "3" << endl;
-		break;
-	default:
-		cout << "other number" << endl;
-	}
+	//int valaue = 1;
+	//switch (valaue)
+	//{
+	//case 1:
+	//{     //代码过多加大括号
+	//	cout << "1" << endl;
+	//	cout << "1" << endl;
+	//	cout << "1" << endl;
+	//	cout << "1" << endl;
+	//	cout << "1" << endl;
+	//	cout << "1" << endl;
+	//}
+	//	break;
+	//case 2:
+	//	cout << "2" << endl;
+	//	break;
+	//case 3:
+	//	cout << "3" << endl;
+	//	break;
+	//default:
+	//	cout << "other number" << endl;
+	//}
 
+
+for (int i = 0; i < 10; i += 1)       //先执行i=0，然后判断i<10，执行cout，再i+=1.再判断i<10，以此类推
+{
+	cout << i;
+}
 
 	system("pause");
 	return 0;
