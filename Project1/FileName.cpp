@@ -1,19 +1,19 @@
 #include<iostream>
 using namespace std;
 
-int main() 
+int main()
 {
 	//cout << "Hello,World!" << endl;
 
-	
+
 	/*int a;
 	a = 10;
 	cout << a << endl;
 	a = 20;
 	cout << a << endl;*/
 
-	
-	/*int a = 10; 
+
+	/*int a = 10;
 	float b = 3.14f;
 	double c = 3.1111;
 	char d = 'F';
@@ -22,23 +22,23 @@ int main()
 
 	cout  << a << "\t" << b << "\t" << c << "\t" << d<<"\t" << e << "\t" << f << endl;*/
 
-	
+
 	/*int a = 10;
 	int b = 20;
 	int c = a + b;
 	cout << c << endl;*/
 
-	
+
 	//int a = 10;
 	//float b = 20.22;
 	//float c = a + b;     //需要注意输出的结果是什么，是整数还是小数
 	//cout << c << endl;
 
-	
+
 	//const int a= 3;     //定义常量一定要赋值
 	//cout << a << endl;
 
-	
+
 	//int a;
 	//int b;
 	//cin >> a>> b;      //从键盘输入一个整数赋值给a
@@ -52,22 +52,22 @@ int main()
 	//bool is=1 ==1 && 2 < 3;       //&& 逻辑与，两个条件都成立，结果才为真
 	//cout << is;
 
-	
+
 	//bool is = 1 != 1 || 2 < 3;     //||逻辑或，两个条件有一个成立，结果就为真
 	//cout << is;
 
 
 	//bool is = !1;         //!逻辑非，取反
 	//cout << is;
-	
+
 
 	//int value1 = 10;
 	//int value2 = value1 >>3 ;  //右移运算符，低位丢弃，高位补0，相当于除于2的n次方
 	//cout << value2;
 
-	
-	int hp = 10;
-	
+
+	/*int hp = 10;*/
+
 	/*if(hp>0)
 		{
 		cout << "continue" << endl;
@@ -100,5 +100,30 @@ int main()
 	}*/
 
 
+	int valaue = 1;
+	switch (valaue)
+	{
+	case 1:
+	{     //代码过多加大括号
+		cout << "1" << endl;
+		cout << "1" << endl;
+		cout << "1" << endl;
+		cout << "1" << endl;
+		cout << "1" << endl;
+		cout << "1" << endl;
+	}
+		break;
+	case 2:
+		cout << "2" << endl;
+		break;
+	case 3:
+		cout << "3" << endl;
+		break;
+	default:
+		cout << "other number" << endl;
+	}
+
+
 	system("pause");
 	return 0;
+}
