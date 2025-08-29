@@ -66,7 +66,39 @@ int main()
 	//cout << value2;
 
 	
+	int hp = 10;
+	
+	/*if(hp>0)
+		{
+		cout << "continue" << endl;
+
+	}
+	else
+	{
+		cout << "game over" << endl;
+	}*/
+
+
+	//if ((0<hp&&hp<20) )  //要用与或，不可直接用0<hp,20
+	//{
+	//	cout << "血量过低" << endl;
+	//}
+
+	/*if (1)
+	{
+	}
+	else {
+		if (1)
+		{
+		}
+		else
+		{
+			if (1)
+			{
+			}
+		}
+	}*/
+
 
 	system("pause");
 	return 0;
-}
