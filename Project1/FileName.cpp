@@ -130,13 +130,20 @@ int main()
 //}
 
 
-int x = 1;
-while (x<100)
+//int x = 1;
+//while (x<100)
+//{
+//	cout << x << endl;
+//	x += 1;
+//}
+
+
+int x = 0;
+do                              //与while大同小异，先执行再判断，无论如何至少执行一次
 {
 	cout << x << endl;
 	x += 1;
-}
-
+} while (x < 100);
 
 
 
