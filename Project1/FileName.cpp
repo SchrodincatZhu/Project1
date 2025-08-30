@@ -179,7 +179,16 @@ int main()
 //}
 
 
+int arr[10] = { 0 };
 
+arr[0] = 1;
+arr[2] = 1;
+arr[3] = 2;
+
+for (int i = 0; i < 10; i++)
+{
+	cout << arr[i] << endl;
+}
 
 	system("pause");
 	return 0;
