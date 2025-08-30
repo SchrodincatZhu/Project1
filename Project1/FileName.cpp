@@ -138,12 +138,46 @@ int main()
 //}
 
 
-int x = 0;
-do                              //与while大同小异，先执行再判断，无论如何至少执行一次
-{
-	cout << x << endl;
-	x += 1;
-} while (x < 100);
+//int x = 0;
+//do                              //与while大同小异，先执行再判断，无论如何至少执行一次
+//{
+//	cout << x << endl;
+//	x += 1;
+//} while (x < 100);
+
+
+//for (int i = 0; i < 100; i += 1)
+//{
+//	if (i < 50)
+//		cout << i << endl;
+//	else
+//		break;
+//}
+
+
+//int x = 0;
+//while (x < 100)
+//{
+//	x += 1;
+//
+//	if (x % 2 == 0)
+//		cout << x << endl;
+//	else
+//		continue;
+//	
+//}
+
+
+//int x = 1;
+//sign:
+//cout << x << endl;
+//x++;
+//if (x < 100)
+//{
+//	goto sign;
+//
+//}
+
 
 
 
